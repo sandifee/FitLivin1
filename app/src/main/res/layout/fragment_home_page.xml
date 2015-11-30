@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerFitnessP"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:background="@drawable/background2"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:onClick="ChangeFragment" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Points"
+        android:id="@+id/pointsButton"
+        android:layout_marginBottom="175dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/profileButton"
+        android:layout_marginBottom="125dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Track Progress"
+        android:id="@+id/trackProgressButton"
+        android:layout_marginBottom="75dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:id="@+id/bmiButton"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutrition"
+        android:id="@+id/nutritionButton"
+        android:layout_marginBottom="-25dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitness Program"
+        android:id="@+id/fitnessProgramButton"
+        android:layout_marginBottom="-75dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Max"
+        android:id="@+id/MaxButton"
+        android:layout_marginBottom="-125dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Home Page"
+        android:id="@+id/textView27"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#ffffff" />
+
+
+</FrameLayout>

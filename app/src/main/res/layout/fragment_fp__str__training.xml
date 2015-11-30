@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerFitnessP"
+    android:background="@drawable/background2"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Day 1 "
+        android:id="@+id/day1Strength"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+
+        android:layout_gravity="center"
+        android:background="#ff1b12" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Day 2 "
+        android:id="@+id/day2Strength"
+
+        android:layout_below="@+id/day1Strength"
+        android:layout_marginBottom="75dp"
+        android:layout_alignStart="@+id/day1Strength"
+        android:layout_gravity="center"
+        android:background="#ff271e" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Day 3 "
+        android:id="@+id/day3Strength"
+        android:layout_below="@+id/day2Strength"
+        android:layout_marginBottom="25dp"
+        android:layout_alignStart="@+id/day2Strength"
+
+        android:layout_gravity="center"
+        android:background="#ff1d19" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 4 "
+        android:id="@+id/day4Strength"
+        android:layout_below="@+id/day3Strength"
+        android:layout_alignStart="@+id/day3Strength"
+
+        android:layout_marginBottom="-25dp"
+        android:layout_gravity="center"
+        android:background="#ff2219" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 5"
+        android:id="@+id/day5Strength"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/day4Strength"
+        android:layout_marginBottom="-75dp"
+        android:layout_gravity="center"
+        android:background="#ff1f18" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/backButtonStrength"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Strength Program "
+        android:id="@+id/textView12"
+        android:background="#ff1f12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="119dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How to preform the major lifts"
+        android:id="@+id/textView23"
+        android:layout_gravity="left|bottom"
+        android:background="#f90505" />
+</FrameLayout>

@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="edu.sc.myapplication.BlankFragment"
+
+    android:id="@+id/containerFitnessP"
+    android:background="@drawable/background2"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="206dp"
+        android:layout_height="204dp"
+        android:id="@+id/editText2"
+        android:layout_gravity="center"
+        android:text="
+        Day 1:
+        1. Squat
+        2. Leg Extension
+        3. Hamstring Curl
+        4. Hack Squat
+        5. Calves "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BODY BUILDING DAY 1"
+        android:id="@+id/textView23"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#ffffff" />
+</FrameLayout>
